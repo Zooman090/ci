@@ -21,6 +21,7 @@ app.use(cors({
   origin: process.env.front_url,
   credentials: true
 }));
+console.log('');
 
 app.use(bodyParser.urlencoded({
   extended: true
